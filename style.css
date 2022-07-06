@@ -27,21 +27,100 @@ body {
     background-image: linear-gradient(tomato, orange);
     background-repeat: no-repeat;
     border-radius: 10px;
-    padding: 10px 40px;
+    margin-top: 2%;
+    padding: 20px 40px;
     color: white;
-    font-weight: 500;
 }
 
-
-.home {
+.center-align {
     text-align: center;
-    height: 50px;
-    margin-top: 100px;
+    margin-top: 200px;
+    font-size: 50px;
+
+}
+
+.p-tag {
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+
+.half-width {
+    justify-content: space-around;
+    display: flex;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.color-set {
+    padding: 20px 40px;
+    background-color: rgb(141, 125, 125);
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.color-div {
+    background-color: rgba(168, 92, 107, 0.678);
+    padding: 20px 40px;
+    border: 7px solid red;
+    border-radius: 5px;
+    margin-left: 5%;
+
+}
+
+.amount {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.button-align {
+    text-align: center;
+}
+
+.number3 {
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.number3 h1 {
+    font-size: 50px;
+}
+
+.container {
     display: flex;
 
+    justify-content: center;
+    align-items: center;
 }
 
-.list-tag {
-    list-style: none;
-    justify-content: center;
+.box {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.one {
+    margin: 40px;
+    padding: 20px;
+    background-color: darkkhaki;
+
+}
+
+.two {
+    margin: 20px;
+    padding: 20px;
+    background-color: darkseagreen;
+}
+
+.three {
+    margin: 40px;
+    padding: 20px;
+    background-color: burlywood;
 }
