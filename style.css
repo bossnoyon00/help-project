@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -29,14 +29,14 @@ body {
     font-weight: 700;
     border-radius: 10px;
     margin-bottom: 3%;
-    padding: 20px 40px;
+    padding: 15px 40px;
     color: white;
 }
 
 .center-align {
     text-align: center;
     margin-top: 200px;
-    font-size: 50px;
+    font-size: 40px;
 
 }
 
@@ -153,4 +153,36 @@ body {
     border: 5px solid skyblue;
     background-color: darkgrey;
 
+}
+
+.placeholder {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 80px;
+    border-radius: 10px;
+    background-color: rgba(229, 142, 111, 0.348);
+}
+
+.btn-2 {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.email1 {
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(14, 13, 13, 0.969);
+    padding: 30px;
+    color: brown;
 }
